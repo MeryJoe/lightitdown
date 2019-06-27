@@ -30,6 +30,8 @@ body{
     color: #1A237E;
     font-stretch: condensed;
     text-shadow:1px 1px #000000;
+}
+   
     footer{
         left:0px;
         bottom:0px;
@@ -39,15 +41,15 @@ body{
      }
 
 
-h1{
-    color: #FFF59D;
-    font-family: 'Trebuchet MS', Helvetica, sans-serif;
-    letter-spacing: 4px;
-    font-weight: bold;
-    font-stretch: condensed; 
-    font-size: 30px;
-
-}
+     .h1{
+        color: #FFF59D;
+        text-decoration-color: #1A237E;
+        font-family: 'Trebuchet MS', Helvetica, sans-serif;
+        letter-spacing: 4px;
+        font-weight: bold;
+        font-stretch: condensed; 
+        font-size: 30px;
+    }
 
      .col-12{
          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;

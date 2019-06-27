@@ -30,7 +30,19 @@ body{
     color: #1A237E;
     font-stretch: condensed;
     text-shadow:1px 1px #000000;
-    footer{
+}
+
+.h1{
+    color: #FFF59D;
+    text-decoration-color: #1A237E;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    letter-spacing: 4px;
+    font-weight: bold;
+    font-stretch: condensed; 
+    font-size: 30px;
+}
+
+footer{
         left:0px;
         bottom:0px;
         width:100%;
