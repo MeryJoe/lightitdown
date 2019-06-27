@@ -40,7 +40,7 @@ body{
         margin: 0%
      }
 
-     .h1{
+     h1{
         color: #FFF59D;
         text-decoration-color: #1A237E;
         font-family: 'Trebuchet MS', Helvetica, sans-serif;
@@ -48,6 +48,16 @@ body{
         font-weight: bold;
         font-stretch: condensed; 
         font-size: 30px;
+        text-align: center;
+    }
+
+    p{
+        color: #FFF59D;
+        text-decoration-color: #1A237E;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+        letter-spacing: 4px;
+        font-size: 15px;
+        text-align: justify;
     }
      .col-12{
          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
