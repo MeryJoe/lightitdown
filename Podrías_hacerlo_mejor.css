@@ -1,0 +1,111 @@
+#cabecera{
+    background-color: #1A237E ;
+    text-align: center;
+    height: 60px;
+ }
+body{
+    background-color: black !important;
+}
+#openNav{
+    color: #FFF59D;
+}
+#mySidebar{
+    background-color: #FFF59D;
+    text-decoration-color: #000000;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}
+#botonmenutítulo{
+    background-color: #FFF59D;
+    text-decoration-color: #000000;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    letter-spacing: 4px;
+    font-weight: bold;
+    font-stretch: condensed; 
+    font-size: 30px;
+}
+#botonmenu{
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    text-align: right;
+    color: #1A237E;
+    font-stretch: condensed;
+    text-shadow:1px 1px #000000;
+    footer{
+        left:0px;
+        bottom:0px;
+        width:100%;
+        background:#FFF59D;
+        margin: 0%
+     }
+     .col-12{
+         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+         text-align: center;
+         color: #1A237E;
+         text-shadow:1px 1px #000000;
+         word-spacing: 3px;
+         font-weight: lighter;
+         font-stretch: extra-expanded;   
+         font-size: 18px;
+         font-style: oblique;
+     }
+     #pdp2{
+        left:0px;
+        bottom:0px;
+        width:100%;
+        background:#FFF59D;
+        margin: 0%;
+    }
+    #ventanas{
+        background-color: #FFF59D;
+        color: #000000;
+        font-weight: bolder;
+        padding: 15px 32px;
+        text-align: center;
+        font-size: 12px;
+        width: 150px;
+        display: block;
+        box-align: center;
+        
+      } 
+    #ventanas p:hover {
+        text-decoration-line: underline;
+        color: #1A237E;
+    }
+    
+    .fa {
+        padding: 2%;
+        width: 10%;
+        height: 10%;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+        border-radius: 50%;
+        align-items: center;
+        box-align: center;
+      }
+    .fa:hover {
+          opacity: 0.7;
+      } 
+    .fa-facebook {
+        background: #3B5998;
+        color: white;
+      }
+    .fa-twitter {
+        background: #55ACEE;
+        color: white;
+      }
+    .fa-google {
+        background: #dd4b39;
+        color: white;
+      }
+    .fa-instagram {
+        background: #125688;
+        color: white;
+      }
+      
+    .fa-pinterest {
+        background: #cb2027;
+        color: white;
+      }
+    
+        

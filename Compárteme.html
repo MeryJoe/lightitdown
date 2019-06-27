@@ -6,38 +6,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="LIGHTITDOWNstyle.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-    <title>LIGHT IT UP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>LIGHT IT DOWN</title>
   </head>
   <body>
-      CABECERA
-      <header class= "container">
-          <div class= "row">
-            <div class= "col-3">
-              <nav class="navbar navbar-inverse">
-                      <div class="container-fluid">
-                        <div class="navbar-header">
-                          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span> 
-                          </button>
-                        </div>
-                        <div class="collapse navbar-collapse" id="myNavbar">
-                          <ul class="nav navbar-nav">
-                            <h5><b>Menú</b></h5>
-                            <li class="active"><a href="LIGHTITDOWN.html">Inicio</a></li>
-                            <li><a id="Conóceme" href="Conóceme.html">Conóceme</a></li>
-                            <li><a id="¿Cómo me usas" href="Cómo_me_usas.html">¿Cómo me usas?</a></li> 
-                            <li><a id="¿Podrías hacerlo mejor?" href="Podrías_hacerlo_mejor.html">¿Podrías hacerlo mejor?</a></li>
-                            <li><a id="Compárteme" href="Compárteme.html">Compárteme</a></li>                           
-                        </div>
-                      </div>
-               </nav>
-              </div>
-              <div class= "col-9"><h1>LIGHT IT UP</h1></div>
+      <header class="container-fluid" id="cabecera">
+          <div class="row">
+            <div class="col-1">
+              <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
+                  <button class="w3-bar-item w3-button" onclick="w3_close()" id="botonmenutítulo">MENÚ &times;</button>
+                    <a href="Conóceme.html" class="w3-bar-item w3-button" id="botonmenu">Conóceme</a>
+                    <a href="Cómo_me_usas.html" class="w3-bar-item w3-button" id="botonmenu">Cómo me usas</a>
+                    <a href="Podrías_hacerlo_mejor" class="w3-bar-item w3-button"id="botonmenu">Podrías hacerlo mejor</a>
+                    <a href="Compárteme.html" class="w3-bar-item w3-button" id="botonmenu">Compárteme</a>
+               </div>
+              <div id="main">
+               <div class="w3-#FFF59D">
+                  <button id="openNav" class="w3-button w3-#FFF59D w3-xlarge" onclick="w3_open()">☰</button>
+               </div> 
+              </div> 
+            </div>
+            <div class="col-11"><h1>LIGHT IT DOWN</h1></div>
+            </div>         
+     </header>
+
+     <footer class="container-fluid">
+      <div class="row">
+        <section class="col-12"><p>Si has llegado hasta aquí es porque de verdad estás concienciado. ¡Ayúdanos a llegar a más personas!</p></section>
+      </div>
+      <div class="row" id="pdp2">
+        <section class="col-xl-6 col-lg-6 col-md-6 col-sm-12" id="ventanas" >
+          <p>Ayuda</p><p>Contacto</p><p>Comentarios</p>
+        </section>
+        <section class="col-xl-6 col-lg6 col-md-6 col-sm-12">
+          <div class="container">
+            <div class="row" id="redes sociales">
+              <a href="https://www.facebook.com/citiesatnightiss" class="fa fa-facebook"></a>
+              <a href="https://twitter.com/cities4tnight" class="fa fa-twitter"></a>
+              <a href="https://www.google.com/search?q=contaminacion+luminica&oq=contaminacion+luminica&aqs=chrome.0.69i59j69i60j0l4.2965j0j4&sourceid=chrome&ie=UTF-8" class="fa fa-google"></a>
+              <a href="https://www.instagram.com/contaminacionluminica.cl/?hl=es" class="fa fa-instagram"></a>
+              <a href="https://www.pinterest.es/search/pins/?q=contaminaci%C3%B3n%20lum%C3%ADnica&rs=typed&term_meta[]=contaminaci%C3%B3n%7Ctyped&term_meta[]=lum%C3%ADnica%7Ctyped" class="fa fa-pinterest"></a>
+              
+            </div>
           </div>
-        </header>
-    </body>
+        </section>
+      </div>
+
+    </footer>
+    <!-- Optional JavaScript -->
+    <script>
+        function w3_open() {
+         document.getElementById("main").style.marginLeft = "25%";
+         document.getElementById("mySidebar").style.width = "25%";
+         document.getElementById("mySidebar").style.display = "block";
+         document.getElementById("openNav").style.display = 'none';
+        }
+
+        function w3_close() {
+         document.getElementById("main").style.marginLeft = "0%";
+         document.getElementById("mySidebar").style.display = "none";
+         document.getElementById("openNav").style.display = "inline-block";
+        }
+    </script>
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
 </html>
