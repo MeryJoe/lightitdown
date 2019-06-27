@@ -1,0 +1,84 @@
+#cabecera{
+    background-color: #1A237E ;
+    text-align: center;
+    height: 60px;
+ }
+body{
+    background-color: black !important;
+}
+#openNav{
+    color: #FFF59D;
+}
+#mySidebar{
+    background-color: #FFF59D;
+    text-decoration-color: #000000;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}
+#botonmenutítulo{
+    background-color: #FFF59D;
+    text-decoration-color: #000000;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    letter-spacing: 4px;
+    font-weight: bold;
+    font-stretch: condensed; 
+    font-size: 30px;
+}
+#botonmenu{
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    text-align: right;
+    color: #1A237E;
+    font-stretch: condensed;
+    text-shadow:1px 1px #000000;
+}
+.col-11{
+    color: #FFF59D;
+    letter-spacing: 4px;
+    text-shadow:3px 3px #000000;
+    font-family: Tahoma, "Geneva", sans-serif;
+    font-style: oblique;
+    font-weight: expanded;
+    font-stretch: condensed;   
+    font-size: 200%;
+ }
+footer{
+   left:0px;
+   bottom:0px;
+   width:100%;
+   background:#FFF59D;
+   margin: 0%
+}
+.col-12{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    text-align: center;
+    color: #000000;
+    word-spacing: 3px;
+    font-weight: lighter;
+    font-stretch: extra-expanded;   
+    font-size: 18px;
+}
+#pdp2{
+    left:0px;
+    bottom:0px;
+    width:100%;
+    background:#FFF59D;
+    margin: 0%;
+}
+#curiosidades1{
+    height: 40%;
+    align-items: center;
+}
+.ventanas{
+    background-color: #FFF59D;
+    color: #1A237E;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 12px;
+    width: 150px;
+    display: block;
+    
+  } 
+.ventanas p:hover {
+    background-color:#1A237E;
+    color: white;
+  }
