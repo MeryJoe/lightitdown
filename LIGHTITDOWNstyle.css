@@ -31,6 +31,11 @@ body{
     font-stretch: condensed;
     text-shadow:1px 1px #000000;
 }
+.carousel-inner img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
 .col-11{
     color: #FFF59D;
     letter-spacing: 4px;
@@ -65,6 +70,9 @@ footer{
     width:100%;
     background:#FFF59D;
     margin: 0%;
+}
+#ventanas p{
+    text-align: center;
 }
 #ventanas{
     background-color: #FFF59D;
